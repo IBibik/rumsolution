@@ -1,0 +1,90 @@
+@media screen and (max-width: 1050px)
+{
+  .onlydesk
+  {
+    display:none;
+  }
+  /* header */
+  .header
+  {
+  height:300px;position: relative;
+  }
+  /* navigation */
+  #mynav
+  {
+    background:#000;
+  }
+  #mynav.affix
+  {
+    width:100%;top:0;
+  }
+  #mynav.affix .navbar-toggle .icon-bar
+  {
+    background: #000;
+  }
+  /* banner */
+  #my_text_slider
+  {
+   margin-top:120px;font-size:480%;
+  }
+  /* about */
+  #aboutus
+  {
+    padding:5%;
+  }
+  .heading_main
+  {
+    font-size:40px;
+  }
+  .icon_about
+  {
+    display:none;
+  } 
+  .fa_inner 
+  {
+    color:#333;
+    opacity:0.05;
+  }
+  /* message parallax container */
+  .message
+  {
+    height:250px;
+  }
+  /* message body */
+  .message_body
+  {
+    padding-top:50px;font-size:40px;
+  }
+  /* message count */
+  #box2
+ {
+   height:280px;   
+  }
+  .message_count_style
+  {
+    padding-top:10px;
+  }
+  .count_value
+  {
+    display: inline;
+  }
+  .count_type
+  {
+    font-size:13px;
+  }
+  /* contact us */
+  #contactus input, #contactus textarea
+  {
+    width:98%;
+  }
+@media screen and (max-width: 450px)
+{
+ 
+  /* banner */
+  #my_text_slider
+  {
+
+   font-size:280%;
+  }
+
+} 
